@@ -38,9 +38,13 @@ namespace OrganTransplantWithList
             Kidneys.Add(new Kidney(false));
         }
 
+
         public void SetIsDonor(Person donor)
         {
             donor.IsDonor = true;
+            Thread.Sleep(1000);
+            Console.WriteLine($"Great choice! {Name} is now getting ready for the surgery.");
+            Thread.Sleep(1000);
         }
 
 
