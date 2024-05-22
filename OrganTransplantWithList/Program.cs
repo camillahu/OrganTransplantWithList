@@ -26,7 +26,6 @@ Run();
     Person selectedDonor = CheckUserInput();
     selectedDonor.SetIsDonor(selectedDonor);
     selectedDonor.GiveKidney(PeopleList[^1]);
-
  }
 
  Person CheckUserInput()
